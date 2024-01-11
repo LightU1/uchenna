@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: lato;
+}
+nav{
+    padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-right: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 600px;
+}
+.active{
+    color: red;
+}
+a:hover{
+    color: red;
+}
+.my-button {
+  background-color: red;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+transition: background-color 0.3s ease;
+}
+ 
+.my-button:hover{
+background-color: blueviolet;
+color: white;
+
+}
+.content{
+    padding: 20px;
+    background-image: url(./images/shipping.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+}
+h1{
+  font-size: 48px;  
+  font-weight: 700;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.about{
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+}
+p{
+    font-size: 16px;
+}
+.under{
+border-radius:8px ;
+background: red;
+width: 180px;
+height: 6px;
+flex-shrink: 0;
+margin: 0 auto;
+}
+.container{
+
+    padding: 0px 30px 0px 20px;
+
+}
+.logistics{
+    text-align: center;
+}
+
+
+
+
+
+.boss{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+}
+.cup{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.yellow{
+    border-radius:8px ;
+background: yellow;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.global{
+    display: flex;
+}
+.cont3{
+    margin: 50px;
+}
+
+.content3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.solutions{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.goat{
+    width: 300px;
+height: 50px;
+border-radius: 8px;
+border: 1px solid black;
+padding-left: 10px;
+}
+.tunner{
+    width: 625px;
+height: 190px;
+padding: 10px 0px 0px 10px;
+border-radius: 8px;
+border: 1px solid black;
+}
+.name, .phone{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.last{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ending{
+    margin: 20px;
+}
+
+
+.photo2{
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    
+}
+
+
+
+
+
+
+
+
