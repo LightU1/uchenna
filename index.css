@@ -148,17 +148,30 @@ border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.ending{
+
+.ending1{
     margin: 20px;
 }
-
-
-.photo2{
-    display: flex;
-    margin: 0px 20px 0px 0px;
-    
+.food{
+    margin: 20px;
+    list-style: none;
 }
 
+.photo2{  
+     display:flex;
+    margin: 0px 20px 0px 0px;
+    }
+.ending3{
+    margin: 20px;
+}
+.ending4{
+    margin: 20;
+}
+.end5{
+    margin: 20px;
+    align-items: right;
+    flex: content;
+}
 
 
 
