@@ -154,7 +154,12 @@ border: 1px solid black;
 }
 .food{
     margin: 20px;
-    list-style: none;
+
+
+}
+.lady{
+    list-style-type: none;
+    
 }
 
 .photo2{  
@@ -168,9 +173,9 @@ border: 1px solid black;
     margin: 20;
 }
 .end5{
-    margin: 20px;
-    align-items: right;
-    flex: content;
+    margin: 40px;
+    align-items: center;
+    
 }
 
 
